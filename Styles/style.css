@@ -1,11 +1,11 @@
 p {
-    color :rgb(44, 44, 44)
+    color :rgb(255, 255, 255)
 }
 
 html {
     font-size: 15px; 
     font-family: placeholder;
-    background-color: #c43636;
+    background-color: #6e6e6e;
 }
 
 h1 {
@@ -13,10 +13,10 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 20px 0;
-    text-shadow: 3px 3px 1px black;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
 }
 
-h2 {
+h2, h3 {
     font-size: 20px;
     text-align: center;
     margin: 0;
@@ -29,11 +29,12 @@ p, li {
 }
 
 body {
+    overflow-x: hidden;
     width: 600px;
     margin: 0 auto;
-    background-color: #FF9500;
+    background-color: #424242;
     padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    border: 5px solid rgb(58, 58, 58);
 }
 
 img {
@@ -43,4 +44,54 @@ img {
 
 button {
     margin: 0 auto;
+}
+
+header {
+    font-size: 15px; 
+    font-family: placeholder;
+}
+
+ul {
+    width: 25vw;
+    height: 5vw;
+    text-align: center;
+}
+
+ul, li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+
+ul li:hover {
+    color: aliceblue;
+    transition: 0.3s;
+    border-bottom: solid 1px white;
+}
+
+li {
+    color: azure;
+}
+
+@media screen and (max-width: 998px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (max-width: 576px) and (max-height: 300) {
+    
 }
