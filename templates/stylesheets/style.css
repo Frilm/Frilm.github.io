@@ -1,0 +1,64 @@
+p {
+    color :rgb(255, 255, 255)
+}
+
+html {
+    background-color: black;
+}
+
+.list {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+a:hover {
+    color: rgba(0, 128, 0, 0.623); /* При наведении */
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+a:active {
+    color: #00FF00; /* При нажатии */
+}
+
+.head, .main{
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+ul, li, span {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+
+ul li:hover {
+    color: aliceblue;
+    transition: 0.3s;
+    border-bottom: solid 1px white;
+}
+
+li {
+    color: azure;
+}
