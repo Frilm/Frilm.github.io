@@ -8,6 +8,7 @@ html {
     background-color: black;
     text-align: center;
     font-size: 14px;
+    font-family: "Courier New", monospace;
 }
 
 a {
@@ -26,12 +27,36 @@ a:active {
     color: #00FF00; /* При нажатии */
 }
 
-.head, .main{
-    color: white;
+.main{
     text-align: center;
+    color: #00FF00; /* Неоновый зелёный текст */
+    font-family: "Courier New", monospace; /* Моноширинный шрифт */
+    margin: 20px;
+    line-height: 1.4;
+}
+
+.head {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36zwjjgzhhYWGMYAEYB8RmROaABADeOQ8CXl/xfgAAAABJRU5ErkJggg=="); /* Сетка */
+    background-repeat: repeat;
+    image-orientation: from-image;
+    margin: 0 auto;
+    text-align: center;
+    text-size-adjust: 12px;
+    width: 40%;
 }
 
 footer {
     text-align: center;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  color: white;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
